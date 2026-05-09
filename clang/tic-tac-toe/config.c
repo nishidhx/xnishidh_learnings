@@ -52,9 +52,9 @@ int winning_State_count = 8;
 
 // The game board: 3x3 grid. 1 = X, 0 = O, 8 = empty/uninitialized
 int BOARD[3][3] = {
-    {1, 8, 8},
-    {8, 0, 8},
-    {8, 8, 1}};
+    {8, 8, 8},
+    {8, 8, 8},
+    {8, 8, 8}};
 
 /*
  * Resets the game state to initial values before a new game starts.
