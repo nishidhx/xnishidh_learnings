@@ -1,0 +1,37 @@
+name: machinelearning
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.12
+
+  # Core scientific computing
+  - numpy
+  - pandas
+  - scipy
+
+  # Visualization
+  - matplotlib
+  - seaborn
+
+  # Machine Learning
+  - scikit-learn
+  - imbalanced-learn
+
+  # Jupyter
+  - jupyterlab
+  - notebook
+  - ipykernel
+
+  # Utilities
+  - tqdm
+
+  # Deep Learning (optional)
+  - tensorflow
+  - pytorch
+
+  # Pip packages
+  - pip
+  - pip:
+      - kaggle
